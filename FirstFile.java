@@ -7,7 +7,7 @@ public class FirstFile {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		try{
-			File f = new File("joe.dat");
+			File f = new File("test.dat");
 			Scanner scan = new Scanner(f);
 			while(scan.hasNextLine()) {
 			System.out.println(scan.nextLine());
